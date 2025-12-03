@@ -328,6 +328,19 @@ The converter includes robust error handling:
 | Google Colab | Colab Secrets (`Claude_Colab`) | `/content/` |
 | Local | `ANTHROPIC_API_KEY` env var | Current directory |
 
+## Example Files
+
+The `examples/pdfs/` folder contains test files for demonstration:
+
+| File | Difficulty | Description |
+|------|------------|-------------|
+| `white-house-supply-chain-review-2024.pdf` | Hard | Complex government report with tables, charts, multi-column layouts |
+| `dat-freight-focus-2025.pdf` | Medium | Industry report with rate charts and trend graphs |
+| `freight-broker-training-guide.pdf` | Easy | Text-heavy guide with simple formatting |
+| `how-to-start-freight-brokerage.pdf` | Easy | Clean whitepaper with straightforward content |
+
+See [`examples/README.md`](examples/README.md) for detailed usage instructions.
+
 ## License
 
 MIT
